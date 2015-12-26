@@ -1,0 +1,26 @@
+Why is self/auto (adaptation/reconfiguration)/runtime (variability/evolution) /autonmous/pervasive (computing/system) is important?
+Because of the continusly ""changing environment""
+
+What are the mains challenges?
+The main challenge is planning/decision-making because it is critical and time cunsumming
+
+How have been them addressed so long?
+using rules of objective functions.
+
+What are the limitations?
+existing approaches scale bad to large systems (in time and accuracy/behavior optimality/quality of adaptation/reconfiguration and handling unforseen scenarios/the scoop of adaptability.
+
+What problem(s) is addressed in this article?
+produces good solutions in reasonable amount time
+
+How is it addressed?
+1- We formaly formulated the decision making/planning process based on a variability model.
+2- We defined a transitive selection operator
+3- We used it in a multiobjectives genetic algorithm.
+Why is the proposed solution better than previous ones?
+Our Algo produces solutions of equivalent quality in 50% (in average) of the time of existing GAs.
+
+Can you prove it?
+1- The computation complexity of our transitive operator is O(N/M) whereas of fmTransoform is N.
+2- We report experimental results performed on 10 different size feature models
+3- We applied our proposal to the smarthome example.
